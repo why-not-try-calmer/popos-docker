@@ -9,4 +9,3 @@ sudo mount -o loop $iso_name rootfs
 fs=$(find . -type f | grep filesystem.squashfs)
 sudo unsquashfs -f -d unsquashfs/ $fs
 sudo tar -C unsquashfs -c . | docker import - $dockerhub_img
-docker push $dockerhub_img
