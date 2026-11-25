@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-iso_url=https://iso.pop-os.org/24.04/amd64/generic/22/pop-os_24.04_amd64_generic_22.iso
+iso_url=https://iso.pop-os.org/26.04/amd64/generic/8/pop-os_26.04_amd64_generic_8.iso
 iso_name=popos.iso
 dockerhub_img=nycticoracs/pop_os:latest
 
